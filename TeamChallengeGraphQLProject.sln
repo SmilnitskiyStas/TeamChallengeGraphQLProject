@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{95D272F0-3125-44CE-BE13-CC9978DA835B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classes", "Classes", "{5AA09902-BE81-402E-9839-C488C3B4A7B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{00014020-C2DC-467B-806F-BCA534EE648E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseLibrary", "BaseLibrary\BaseLibrary.csproj", "{E2E680E0-5830-4724-8F08-6AF6C23F0E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.Project.Api", "GraphQL.Project.Api\GraphQL.Project.Api.csproj", "{DA0E3174-65EB-4822-8EC7-367DDE4743AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2E680E0-5830-4724-8F08-6AF6C23F0E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E680E0-5830-4724-8F08-6AF6C23F0E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E680E0-5830-4724-8F08-6AF6C23F0E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E680E0-5830-4724-8F08-6AF6C23F0E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0E3174-65EB-4822-8EC7-367DDE4743AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0E3174-65EB-4822-8EC7-367DDE4743AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0E3174-65EB-4822-8EC7-367DDE4743AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0E3174-65EB-4822-8EC7-367DDE4743AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AA09902-BE81-402E-9839-C488C3B4A7B2} = {95D272F0-3125-44CE-BE13-CC9978DA835B}
+		{00014020-C2DC-467B-806F-BCA534EE648E} = {95D272F0-3125-44CE-BE13-CC9978DA835B}
+		{E2E680E0-5830-4724-8F08-6AF6C23F0E37} = {5AA09902-BE81-402E-9839-C488C3B4A7B2}
+		{DA0E3174-65EB-4822-8EC7-367DDE4743AB} = {00014020-C2DC-467B-806F-BCA534EE648E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3E71A4F-191B-41A8-8383-7245839FC2C0}
+	EndGlobalSection
+EndGlobal
